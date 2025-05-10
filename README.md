@@ -90,16 +90,4 @@ When running a benchmark, the tool produces:
 3. LaTeX-formatted tables
 4. Performance scaling figures
 
-## Citing
 
-If you use this code in your research, please cite:
-
-```
-@misc{sat_benchmark_2025,
-  author = {Your Name},
-  title = {SAT Solver Benchmark Suite},
-  year = {2025},
-  publisher = {GitHub},
-  howpublished = {\url{https://github.com/yourusername/sat-benchmark}}
-}
-```
