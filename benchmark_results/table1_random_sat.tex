@@ -1,0 +1,18 @@
+\begin{table}[h!]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{c|cccccccc}
+\hline
+$n$ (vars) & $m$ (clauses) & DPLL dec. & DPLL conf. & DPLL mem (KB) & ProbSAT flips & ProbSAT mem (KB) & DPLL time (s) & ProbSAT time (s) \\
+\hline
+110 & 462.0 & 1144.6 & 1130.2 & 188.8 & 205261.6 & 3.2 & 0.902270 & 13.440729 \\
+120 & 504.0 & 2959.6 & 2952.0 & 89.6 & 601261.6 & 0.0 & 2.670399 & 41.030009 \\
+130 & 546.0 & 2153.4 & 2139.0 & 108.8 & 211365.0 & -4185.6 & 2.146582 & 15.221380 \\
+140 & 588.0 & 10296.0 & 10283.2 & -1520.0 & 456467.6 & -2883.2 & 11.204506 & 35.090129 \\
+150 & 630.0 & 7531.4 & 7514.2 & 204.8 & 204775.0 & 0.0 & 9.111410 & 16.836127 \\
+\hline
+\end{tabular}%
+}
+\caption{Performance comparison on random 3-SAT instances with approximately $4.2n$ clauses. Each value is averaged over 5 instances. Memory is measured as peak resident set size in KB.}
+\label{tab:random_sat}
+\end{table}
