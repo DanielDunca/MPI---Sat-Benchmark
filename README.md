@@ -1,7 +1,7 @@
 # MPI---Sat-Benchmark
 # SAT Solver Benchmark Suite
 
-This package provides implementations of DPLL (Complete) and ProbSAT (Stochastic Local Search) SAT solvers along with benchmarking tools to compare their performance on various SAT instances.
+This package provides implementations of DPLL (Complete), CDCL and ProbSAT (Stochastic Local Search) SAT solvers along with benchmarking tools to compare their performance on various SAT instances.
 
 ## Getting Started
 
